@@ -1,2 +1,3 @@
 # rsschool-cv
-Task: Markup &amp; Git
+## Task: Markup &amp; Git
+https://simenys.github.io/rsschool-cv/cv
