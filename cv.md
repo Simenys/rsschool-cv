@@ -4,6 +4,7 @@
 - Mob: +370 626 44197
 - Email: [s.zilevicius@gmail.com](s.zilevicius@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/simonas-%C5%BEilevi%C4%8Dius-61a006a9/)
+- [GitHub](https://github.com/Simenys)
 
 ## Sumarry:
 **Entry level HTML, CSS, Javascript. Flirting with PHP & Python. 
