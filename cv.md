@@ -2,14 +2,14 @@
 
 ## Contacts:
 - Mob: +370 626 44197
-- Email: s.zilevicius@gmail.com
+- Email: [s.zilevicius@gmail.com](s.zilevicius@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/simonas-%C5%BEilevi%C4%8Dius-61a006a9/)
 
 ## Sumarry:
 **Entry level HTML, CSS, Javascript. Flirting with PHP & Python. 
-Love coding - dont have much time for it. Since i want to do what i love -  changes are inevitable.
-RSSchool & EPAM tandem seems to be exactly what i was looking for - perfect jump to a developer carrer.
-If you can teach a bear how to ride a bike - i dont see how i could not make this.** 
+Love coding - dont have much time for it. Since I want to do what I love -  changes are inevitable.
+RSSchool & EPAM tandem seems to be exactly what I was looking for - perfect jump to a developer carrer.
+If you can teach a bear how to ride a bike - I dont see how I could fail this.** 
 
 ## Skills:
 - HTML (entry level)
