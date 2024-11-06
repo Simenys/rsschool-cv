@@ -1,6 +1,4 @@
-#CV. Markdown
-
-## * *Simonas Zilevicius* *
+# *Simonas Zilevicius*
 
 ### Contact Info:
 * Mobile: +370 626 44197
