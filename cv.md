@@ -17,7 +17,8 @@ Currently, my goal is to make a final career shift to web development, where I c
 * PHP
 
 ### Code examples
-I am stuck in a tutorial hell. No latest code examples. I hope that RS School will become my last bootcamp.
+* HTML and CSS [Device Shop Checkout](https://simenys.github.io/Device-shop-checkout/)
+* JS [Coin Flipper](https://simenys.github.io/color_flipper/)
 
 ### Experience
 * [Codewars](https://www.codewars.com/users/Simenys)
