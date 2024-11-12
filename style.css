@@ -5,7 +5,7 @@
 }
 
 header, main, footer {
-    width: 640px;
+    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,6 +15,20 @@ header, main, footer {
     height: 200px;
     margin-left: auto;
     margin-right: auto;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+}
+.contactDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.contactDetails p, h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
 }
 
 .navbar {
@@ -32,4 +46,5 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 1rem;
 }
