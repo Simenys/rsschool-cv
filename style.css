@@ -11,13 +11,26 @@ header, main, footer {
 }
 
 .banner {
-    border: 1px solid black;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 0fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    background-color: lightgray;
 }
+
+.photoDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    height: 180PX;
+    border: 4px solid white;
+    border-radius: 45% 45% 5% 45%;
+}
+
 .contactDetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,7 +41,6 @@ header, main, footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
 }
 
 .navbar {
