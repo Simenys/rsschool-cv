@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
   	padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 header, main, footer {
@@ -11,22 +12,23 @@ header, main, footer {
 }
 
 .banner {
-    height: 200px;
+    height: 220px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-color: lightgray;
+    background-color: #A9CDD7;
 }
 
 .photoDetails {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
 }
 
 .photo {
-    height: 180PX;
+    height: 180px;
     border: 4px solid white;
     border-radius: 45% 45% 5% 45%;
 }
@@ -43,8 +45,19 @@ header, main, footer {
     justify-content: center;
 }
 
+.contactDetails p {
+    color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
 .navbar {
-    border: 1px solid red;
+    margin-top: 4px;
+    background-color: #A9CDD7;
+    padding: 10px 20px;
 }
 
 .navbar-list {
@@ -59,4 +72,6 @@ ul {
 a {
     text-decoration: none;
     font-size: 1rem;
+    color: black;
+    font-weight: 600;
 }
