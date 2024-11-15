@@ -2,6 +2,12 @@
     box-sizing: border-box;
     margin: 0;
   	padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
     font-family: 'Inter', sans-serif;
 }
 
@@ -11,6 +17,8 @@ header, main, footer {
     margin-right: auto;
 }
 
+
+/* Banner and navbar */
 .banner {
     height: 220px;
     margin-left: auto;
@@ -24,7 +32,7 @@ header, main, footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
+    padding: 0px 20px;
 }
 
 .photo {
@@ -33,13 +41,14 @@ header, main, footer {
     border-radius: 45% 45% 5% 45%;
 }
 
-.contactDetails {
+.contactDetails ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
+    height: 100%;
 }
 
-.contactDetails p, h1 {
+ul li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,4 +83,21 @@ a {
     font-size: 1rem;
     color: black;
     font-weight: 600;
+}
+
+/* Main and sections */
+.mainSection {
+    flex: 1;
+    background-color: aqua;
+}
+
+.section {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background-color: red;
+    height: 100px;
 }
