@@ -88,11 +88,11 @@ a {
 /* Main and sections */
 .mainSection {
     flex: 1;
-    background-color: aqua;
+
 }
 
-.section {
-    width: 100%;
+section {
+    padding: 20px;
 }
 
 /* Footer */
