@@ -31,6 +31,10 @@ header, main, footer {
     border: 1px solid green;
 }
 
+h1 {
+    font-size: 1.2rem;
+}
+
 .navbar {
     border: 1px solid red;
 }
