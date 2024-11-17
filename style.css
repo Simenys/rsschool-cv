@@ -12,7 +12,8 @@ body {
 }
 
 header, main, footer {
-    max-width: 640px;
+    width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -74,8 +75,12 @@ h1 {
 }
 
 .navbar-list {
+    max-width: 640px;
     display: flex;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 ul {
@@ -105,3 +110,14 @@ footer {
     background-color: red;
     height: 100px;
 }
+
+
+
+
+/* PC screen */
+/* @media screen and (min-width: 641px) {
+    header, main, footer {
+        max-width: 1200px;
+    }
+
+} */
