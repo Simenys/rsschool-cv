@@ -169,6 +169,13 @@ section h2 {
     padding-right: 50px;
 }
 
+.codeWindow {
+    background-color: #264653;
+    color: #e76f51;
+    margin-top: 20px;
+    padding: 30px 10px
+}
+
 /* Section color scheme */
 .headerSection {
     min-width: 200px;
@@ -217,8 +224,28 @@ main {
 /* Footer */
 
 footer {
-    background-color: #264653;
+    background-color: #e76f51;;
     height: 100px;
+}
+.footerSection {
+    margin-top: 20px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerColumn {
+    display: flex;
+    justify-content: center;
+}
+.logos {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e76f51;
 }
 
 
