@@ -42,17 +42,21 @@ header, main, footer {
     border-radius: 45% 45% 5% 45%;
 }
 
+.contactDetails {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .contactDetails ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-    height: 100%;
 }
 
 ul li {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .contactDetails p {
@@ -61,8 +65,10 @@ ul li {
 
 h1 {
     color: black;
-    text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: end;
+    justify-content: start;
 }
 
 .navbar {
@@ -101,7 +107,7 @@ a {
 section {
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -167,4 +173,14 @@ footer {
         border: none;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 801px) and (max-width: 1050px) {
+    h1 {
+        font-size: 3rem;
+    }
 }
