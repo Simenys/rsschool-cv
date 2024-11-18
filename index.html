@@ -4,11 +4,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:wght@300;600&family=Open+Sans:wght@400;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Content</h1>
+    <header>
+        <div class="banner">
+            <div class="photoDetails">
+                <img class="photo" src="img/light2.jpg" alt="Simonas Zilevicius">
+            </div>
+            <div class="contactDetails">
+                <h1>Simonas Žilevičius</h1>
+                <ul>
+                    <li>
+                        <p>phone <span class="blackSlash">/</span> +370 626 44197</p>
+                    </li>
+                    <li>
+                        <p>email <span class="blackSlash">/</span> s.zilevicius@gmail.com</p>
+                    </li>
+                    <li>
+                        <p>linkedin <span class="blackSlash">/</span> <a href="https://www.linkedin.com/in/simonas-žilevičius-61a006a9">www.linkedin.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="list-items">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="list-items">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="list-items">
+                    <a href="#codeExamples">Code examples</a>
+                </li>
+                <li class="list-items">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="list-items">
+                    <a href="#education">Education</a>
+                </li>
+                <!-- <li class="list-items">
+                    <a href="">Contact</a>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+    <main class="mainSection">
+        <section class="introduction">
+            <div class="headerSection">
+                <h2>Introduction</h2>
+            </div>
+            <p>I have a clear, logical mind with a practical approach to problem-solving and a drive to see things
+                through to completion. Currently, my goal is to make a final career shift to web development, where I can grow and deepen my expertise in developing and maintaining high-quality code.</p>
+        </section>
+        <section id="skills" class="skills">
+            <div class="headerSection">
+                <h2>Skills</h2>
+            </div>
+            <div class="skillSection">
+                <div>
+                    <h3 class="topic">Hard Skills</h3>
+                    <ul>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>CSS</p>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                        </li>
+                        <li>
+                            <p>Git</p>
+                        </li>
+                        <li>
+                            <p>PHP</p>
+                        </li>
+                        <li>
+                            <p>Python</p>
+                        </li>
+                    </ul>   
+                </div>
+                <div>
+                    <h3 class="topic">Soft Skills</h3>
+                    <ul>
+                        <li>
+                            <p>Resuls-Oriented Approach</p>
+                        </li>
+                        <li>
+                            <p>Proactive Mindset</p>
+                        </li>
+                        <li>
+                            <p>Deadline Management</p>
+                        </li>
+                        <li>
+                            <p>Logical Reasoning</p>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="headerSection">
+                <h2>Projects</h2>
+            </div>
+            <div class="projectSection">
+                <div>
+                    <h3 class="topic">FreeCodeCamp.org</h3>
+                    <h4><a href="https://www.freecodecamp.org/certification/simenys/responsive-web-design">Responsive
+                            Web
+                            Design</a></h4>
+                </div>
+                <div>
+                    <h3 class="topic">Coursera</h3>
+                    <h4><a href="https://www.coursera.org/account/accomplishments/certificate/LVMN3EG9ESB8">HTML, CSS
+                            and
+                            JavaScript for Web Developers</a></h4>
+                </div>
+                <div>
+                    <h3 class="topic">Codewars</h3>
+                    <h4><a href="https://www.codewars.com/users/Simenys">My Codewars Profile</a></h4>
+                </div>
+            </div>
+        </section>
+        <section id="codeExamples" class="codeExamples">
+            <div class="headerSection">
+                <h2>Code Example</h2>
+            </div>
+            <div class="codeExampleSection">
+                <h3 class="topic">JavaScript Example</h3>
+                <div class="codeWindow">
+                    <p class="code">&emsp;btn.addEventListener('click', function() {</p><br> 
+                        <p class="code">&emsp;&emsp;const randomNumber = getRandomNumber();</p>
+                        <p class="code">&emsp;&emsp;document.querySelector('.container').style.backgroundColor = colors[randomNumber];</p>
+                        <p class="code">&emsp;&emsp;color.textContent = colors[randomNumber];</p><br>
+                    <p class="code">&emsp;})</p>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="experience">
+            <div class="headerSection">
+                <h2>Experience</h2>
+            </div>
+            <div class="workExperienceSection">
+                <div class="workExperience">
+                    <h3 class="topic">Manager - Projects & Complaince</h3>
+                    <h4>Global Pack A/S</h4>
+                    <p class="date">Jun 2019 - Present</p>
+                    <p class="workDescription">Product compliance - experienced in the process of getting all fittings
+                        approved for use in IKEA® furniture, with
+                        additional knowledge of IWAY and FSC standards.</p>
+                </div>
+                <div class="workExperience">
+                    <h3 class="topic">Manager</h3>
+                    <h4>Husband & Wife Cleaning LTD</h4>
+                    <p class="date">Aug 2017 - Dec 2018</p>
+                    <p class="workDescription">Supervision of cleaning personnel and provision of client support
+                        services.
+                    </p>
+                </div>
+                <div class="workExperience">
+                    <h3 class="topic">Project Manager</h3>
+                    <h4>Tertzia AB / UAB Sell Grafika</h4>
+                    <p class="date">Oct 2013 - Jul 2017</p>
+                    <p class="workDescription">I adeptly orchestrated the production of a variety of printed materials,
+                        aligning with clients budgets and deadlines.</p>
+                </div>
+                <div class="workExperience">
+                    <h3 class="topic">Screen Printing Operator / Technologist</h3>
+                    <h4>UAB Caris</h4>
+                    <p class="date">Jul 2011 - Sep 2013</p>
+                    <p class="workDescription">Commenced my journey as a silk screen operator and subsequently advanced
+                        to
+                        the role of technologist.</p>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="education">
+            <div class="headerSection">
+                <h2>Education</h2>
+            </div>
+            <div class="educationSection">
+                <div>
+                    <h3 class="topic">Bachelor's degree, Mechanical Engineering</h3>
+                    <h4>VILNIUS TECH - Vilnius Gediminas Technical University</h4>
+                    <p class="date">2009 -2013</p>
+                </div>
+                <div>
+                    <h3 class="topic">English</h3>
+                    <p class="workDescription">Since graduating from VGTU in 2013, I’ve worked in various international companies where the primary stakeholders communicated exclusively in English. I’ve been using English daily for over a decade.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerSection">
+            <div class="footerColumn">
+                <a href="https://github.com/Simenys"><img class="logos" src="img/github-mark.svg" alt="github logo"></a>
+            </div>
+            <div class="footerColumn">
+                <a href="https://rs.school/courses/javascript"><img class="logos" src="img/rs-school-logo.svg" alt="rsschool logo"></a>
+            </div>
+            <div class="footerColumn">
+                <p class="year">&copy;2024</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,3 +1,309 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+  	padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+header, main, footer {
+    width: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Banner and navbar */
+.banner {
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #264653;
+}
+
+.photoDetails {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 20px;
+}
+
+.photo {
+    height: 180px;
+    border: 4px solid #e76f51;
+    border-radius: 45% 45% 5% 45%;
+}
+
+.contactDetails {
+    height: 180px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contactDetails ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+ul li {
+    display: flex;
+    justify-content: start;
+}
+
+.contactDetails p {
+    color: white;
+}
+
+h1 {
+    color: #e76f51;
+    font-size: 4rem;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+
+.navbar {
+    margin-top: 4px;
+    background-color: #e76f51;
+    padding: 10px 20px;
+}
+
+.navbar-list {
+    max-width: 640px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #264653;
+    transition: 0.3;
+}
+
+.blackSlash {
+    color: grey;
+    font-weight: 600;
+}
+
+.contactDetails a {
+    color: white;
+    font-weight: 400;
+}
+
+.contactDetails a:hover {
+    color: #e76f51;
+    transition: 0.3s;
+}
+
+/* Main and sections */
+.mainSection {
+    padding: 60px 0px;
+    flex: 1;
+}
+
+section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 3fr;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section a {
+    color: black;
+}
+
+section a:hover {
+    color: grey;
+    transition: 0.3;
+}
+
+.workExperienceSection, .skillSection, .projectSection, .educationSection {
+    display: grid;
+    row-gap: 30px;
+}
+
+.topic {
+    border-radius: 5px;
+    margin-left: -20px;
+    padding-left: 5px;
+    border-bottom: 4px solid #A9CDD7;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+.date {
+    padding-top: 5px;
+    color: grey;
+}
+
+.workDescription {
+    padding-top: 5px;
+}
+
+section h2 {
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.codeWindow {
+    background-color: #264653;
+    color: #e76f51;
+    margin-top: 20px;
+    padding: 30px 10px
+}
+
+/* Section color scheme */
+.headerSection {
+    min-width: 200px;
+}
+
+main {
+    background-color: #f8f9fa;
+}
+
+.introduction {
+    border-bottom: 4px solid #264653;
+    border-left: 10px solid #264653;
+}
+.skills {
+    border-bottom: 4px solid #264653;
+    border-right: 10px solid #264653;
+}
+.skills h2 {
+    margin-right: -10px;
+}
+.skillSection {
+    margin-left: 10px;
+}
+.skills p {
+    padding-top: 5px;
+}
+.projects {
+    border-bottom: 4px solid #264653;
+    border-left: 10px solid #264653;
+}
+.codeExamples {
+    border-bottom: 4px solid #264653;
+    border-right: 10px solid #264653;
+}
+.codeExamples h2 {
+    margin-right: -10px;
+}
+.experience {
+    border-bottom: 4px solid #264653;
+    border-left: 10px solid #264653;
+}
+.education {
+    border-right: 10px solid #264653;
+}
+
+/* Footer */
+
+footer {
+    background-color: #e76f51;;
+    height: 100px;
+}
+.footerSection {
+    margin-top: 20px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerColumn {
+    display: flex;
+    justify-content: center;
+}
+.logos {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e76f51;
+}
+
+.year {
+    font-weight: 600;
+}
+
+
+
+
+/* PC screen */
+@media screen and (max-width: 800px) {
+    header, main, footer {
+        max-width: 800px;
+    }
+
+    section {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        border: none;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 801px) and (max-width: 1050px) {
+    h1 {
+        font-size: 3rem;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        width: 100%;
+    }
+
+    .introduction, .skills, .projects, .codeExamples, .experience, .education {
+        border-left: none;
+        border-right: none;
+    }
+    .skills h2 {
+        margin-right: none;
+    }
+    .codeExamples h2 {
+        margin-right: none;
+    }
+    section h2 {
+        justify-content: center;
+    }
+
 }
