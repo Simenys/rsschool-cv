@@ -248,6 +248,10 @@ footer {
     color: #e76f51;
 }
 
+.year {
+    font-weight: 600;
+}
+
 
 
 
@@ -297,6 +301,9 @@ footer {
     }
     .codeExamples h2 {
         margin-right: none;
+    }
+    section h2 {
+        justify-content: center;
     }
 
 }
